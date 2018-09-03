@@ -1,0 +1,21 @@
+### Allowing experimental on Docker server
+# faced when I tryied to build squash docker image.
+```
+vim /etc/docker/daemon.json
+```
+and then add this code:
+```
+{
+	"experimental": true
+}
+```
+now, restart the docker service 
+```
+sudo systemctl restart docker
+```
+
+Last but not least 
+check the docker 
+```
+docker version -f '{{.Server.Experimental}}'
+```
