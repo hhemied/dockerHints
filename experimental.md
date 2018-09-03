@@ -1,5 +1,5 @@
 ### Allowing experimental on Docker server
-# faced when I tryied to build squash docker image.
+# faced this issue when I tryied to build squash docker image.
 
 ```bash
 vim /etc/docker/daemon.json
