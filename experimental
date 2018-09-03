@@ -3,6 +3,9 @@
 ```
 vim /etc/docker/daemon.json
 ```
+'''
+docker ps
+'''
 and then add this code:
 ```
 {
